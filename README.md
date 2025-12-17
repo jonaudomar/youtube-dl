@@ -1,2 +1,3 @@
 # youtube-dl
-A program to download videos from the web
+
+A program to download videos from Youtube.
