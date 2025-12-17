@@ -1,0 +1,7 @@
+__pycache__
+*checkpoint.ipynb
+*.ipynb_checkpoints
+*.Identifier
+*.mp3
+*.mp4
+files/
