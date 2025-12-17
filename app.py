@@ -10,9 +10,9 @@ if st.button("Télécharger MP4", type="primary"):
     yt = YouTube(url, on_progress_callback=on_progress)
     st.write("Téléchargement de :", {yt.title})
     ys = yt.streams.get_highest_resolution()
-    ys.download(output_path="files")
+    ys.download()
 
 if st.button("Télécharger son uniquement", type="secondary"):
     yt = YouTube(url, on_progress_callback=on_progress)
     ys = yt.streams.get_audio_only()
-    ys.download(output_path="files")
+    ys.download()
