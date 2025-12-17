@@ -4,7 +4,7 @@ from pytubefix.cli import on_progress
 
 st.title("Hello world")
 
-url = st.text_input("Copiez-coller le lien de la vidéo", "https://www.youtube.com")
+url = st.text_input("Copiez-coller le lien de la vidéo", "https://www.youtube.com/watch?v=iyLdoQGBchQ")
 
 if st.button("Télécharger MP4", type="primary"):
     yt = YouTube(url, on_progress_callback=on_progress)
