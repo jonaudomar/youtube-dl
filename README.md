@@ -1,6 +1,6 @@
 # youtube-dl (YoupyTube)
 
-A program to download videos from Youtube.
+A Youtube downloader (MP3/MP4) in Python.
 
 Instructions :
 
